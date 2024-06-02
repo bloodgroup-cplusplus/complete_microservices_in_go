@@ -8,4 +8,5 @@ type OrderService interface {
 
 type OrdersStore interface {
 	Create()
+	Validate()
 }
